@@ -1,0 +1,71 @@
+# .project metadata for SlimFaaS
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "slimfaas"
+name: "SlimFaaS"
+description: "The slimest and simplest Function As A Service"
+type: "project"
+project_lead: "guillaume-chervet" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#slimfaas"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/119" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/SlimPlanet/SlimFaas"
+
+website: "https://github.com/SlimPlanet/SlimFaas"
+
+artwork: "https://landscape.cncf.io/logos/slimfaas.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/SlimPlanet/SlimFaas/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "SlimPlanet/SlimFaas"
+
+
+security:
+  policy:
+    path: "https://github.com/SlimPlanet/SlimFaas/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/SlimPlanet/SlimFaas/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/SlimPlanet/SlimFaas/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/SlimPlanet/SlimFaas/blob/main/LICENSE.md"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/SlimPlanet/SlimFaas/blob/main/README.md"
+
+landscape:
+  category: "Serverless"
+  subcategory: "Installable Platform"
+
+# CLOMonitor Score: 82/100
+# Documentation: 93 | License: 100 | Best Practices: 100 | Security: 55
