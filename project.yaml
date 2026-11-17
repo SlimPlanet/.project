@@ -26,7 +26,7 @@ repositories:
 
 website: "https://github.com/SlimPlanet/SlimFaas"
 
-artwork: "https://landscape.cncf.io/logos/slimfaas.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/slimfaas"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
